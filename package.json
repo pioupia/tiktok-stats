@@ -1,19 +1,29 @@
 {
   "name": "tiktok-stats",
-  "version": "1.6.2",
+  "version": "1.7.6",
   "description": "This package gives you the statistics of which user tiktok !",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pioupia/tiktok-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pioupia/tiktok-stats/issues"
+  },
+  "homepage": "https://github.com/pioupia/tiktok-stats",
   "keywords": [
     "tiktok_stats",
     "tiktok",
-    "stats"
+    "stats",
+    "scrapping"
   ],
   "author": "Pioupia",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^5.3.0"
+    "entities": "^2.2.0",
+    "node-fetch": "^2.6.1"
   }
 }

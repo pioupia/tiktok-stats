@@ -33,7 +33,7 @@ Exemple of return :
     "description": "Développeur de site web & de bots Discord.",
     "certified": false
   },
-  "stats": { "following": 2, "follower": 1, "like": 29, "videoCount": 3 }
+  "stats": { "following": 2, "follower": 1, "like": 29 }
 }
 ```
 
@@ -45,13 +45,20 @@ If the user does not exist, package return :
 }
 ```
 
+or
+
+```json
+{
+  "code": 429,
+  "error": "The page cannot load."
+}
+```
+This error appears because tiktok blocks when they receive too many requests.
+
 ## Last patch
 
-● **Patch of a launch bug under ubuntu.**
+● **Patch error for any account and account not found.**
 
-● **Sends statistics in string, now in int.**
-
-● **Added the verified accounts and the number of user videos to the statistics.**
 
 ## Credits
 Made by Pioupia with ❤️
