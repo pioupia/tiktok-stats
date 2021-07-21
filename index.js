@@ -1,3 +1,4 @@
-const puppeteer = require('puppeteer');
+const fetch = require('node-fetch');
+const entities = require("entities");
 
-module.exports.Stats = require('./src/stats');
+module.exports.Stats = require('./src/Base');
